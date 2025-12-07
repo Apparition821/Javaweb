@@ -1,0 +1,48 @@
+
+.btn-custom-primary {
+    background-color: hsl(70, 86%, 27%);
+    border-color: hsl(70, 86%, 27%);
+    color: white;
+}
+
+.btn-custom-primary:hover {
+    background-color: hsl(70, 86%, 22%);
+    border-color: hsl(70, 86%, 22%);
+}
+
+.btn-custom-outline {
+    border: 2px solid hsl(70, 86%, 27%);
+    color: hsl(70, 86%, 27%);
+    background: transparent;
+}
+
+.btn-custom-outline:hover {
+    background-color: hsl(70, 86%, 27%);
+    color: white;
+}
+
+
+.card-custom {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header-custom {
+    background-color: hsl(70, 31%, 85%);
+    border-bottom: 1px solid hsl(70, 31%, 75%);
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+.form-control-custom {
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.form-control-custom:focus {
+    border-color: hsl(70, 86%, 27%);
+    box-shadow: 0 0 0 0.2rem rgba(112, 163, 41, 0.25);
+}
