@@ -1,0 +1,129 @@
+.auth-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+    color: hsl(70, 86%, 27%);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.auth-form .form-control {
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+}
+
+.auth-form .form-control:focus {
+    border-color: hsl(70, 86%, 27%);
+    box-shadow: 0 0 0 0.2rem rgba(112, 163, 41, 0.25);
+}
+
+.auth-btn {
+    background-color: hsl(70, 86%, 27%);
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.auth-btn:hover {
+    background-color: hsl(70, 86%, 22%);
+}
+
+.auth-btn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.auth-link {
+    color: hsl(70, 86%, 27%);
+    text-decoration: none;
+}
+
+.auth-link:hover {
+    text-decoration: underline;
+}
+
+.verification-section {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.verification-section h3 {
+    color: hsl(70, 86%, 27%);
+    margin-bottom: 15px;
+}
+
+.verification-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.verification-input:focus {
+    border-color: hsl(70, 86%, 27%);
+    box-shadow: 0 0 0 0.2rem rgba(112, 163, 41, 0.25);
+}
+
+.verification-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.verification-buttons button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.verify-btn {
+    background-color: hsl(70, 86%, 27%);
+    color: white;
+}
+
+.resend-btn {
+    background-color: #6c757d;
+    color: white;
+}
+
+.cancel-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .auth-container {
+        margin: 50px 20px;
+        padding: 20px;
+    }
+    
+    .verification-section {
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    .verification-buttons {
+        flex-direction: column;
+    }
+}
